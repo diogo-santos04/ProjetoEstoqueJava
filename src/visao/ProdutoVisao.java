@@ -23,7 +23,7 @@ public class ProdutoVisao {
         System.out.println("Data de Inclusão: " + p2.getDataDeInclusao());
         System.out.println("Valor: " + p2.getValor());
 
-        Produto p3 = new Produto(2, "Whisky", LocalDate.now(), 2, 20.00);
+        Produto p3 = new Produto(2, "Whisky", LocalDate.now(), 3, 20.00);
 
         System.out.println("Classe de Produto");
         System.out.println("Código: " + p3.getCodigo());
